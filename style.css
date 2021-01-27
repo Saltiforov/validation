@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+input{
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+/*button{*/
+/*    width: 400px;*/
+/*    height: 50px;*/
+/*    border-radius: 25px;*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+label span{
+    color: red;
+    font-weight: bold;
+}
+
+.show{
+    color: red;
+    display: none;
+}
+.red_border{
+    border: 4px solid red;
+}
